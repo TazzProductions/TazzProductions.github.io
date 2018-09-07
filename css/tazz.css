@@ -1,0 +1,230 @@
+body{
+    background-color: rgba(46, 42, 42, 0.548);
+}
+.inside a:hover,.btn:hover, h3:hover{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    text-decoration: none;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: rgb(0, 195, 255);}
+    25%  {background-color: rgba(0, 102, 255, 0.479);}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(70, 41, 138);}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: rgb(0, 195, 255);}
+    25%  {background-color: rgba(0, 102, 255, 0.479);}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(70, 41, 138);}
+}
+@-webkit-keyframes examples {
+    0%   {color: rgb(0, 195, 255);}
+    25%  {color: rgba(0, 102, 255, 0.479);}
+    50%  {color: blue;}
+    100% {color: rgb(70, 41, 138);}
+}
+
+/* Standard syntax */
+@keyframes examples {
+    0%   {color: rgb(0, 195, 255);}
+    25%  {color: rgba(0, 102, 255, 0.479);}
+    50%  {color: blue;}
+    100% {color: rgb(70, 41, 138);}
+}
+.background{
+    height: 700px;
+    overflow: hidden;
+}
+.background-img{
+    max-height: 100px;
+    overflow: hidden;
+}
+.bg-img-rs{
+    display: block;
+    /* max-width: 100%; */
+    height: -500px;
+}
+.inside{
+    padding-bottom: 0px;
+    text-align: center;
+}
+.inside img{
+    width: 100px;
+    display: block;
+    margin: -50px auto 5px;
+}
+.inside ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.inside li{
+    display: inline;
+    margin: 0 20px;
+}
+.inside li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #0B0C10;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.inside-border{
+    border: 3px solid rgb(71, 128, 233);
+    border-radius: 6px;
+    margin-right: 308px;
+    margin-top: -478px;  /* change position */
+    margin-left: 332px;
+    display: block;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.sub-heading{
+    position: relative;
+}
+.nav-bar {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background: #0B0C10;
+    padding: 10px 0;
+
+}
+.inside img{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-bar li{
+    display: inline;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-bar a {
+    padding: 2px 5px;
+    text-transform: uppercase;
+    color: #f8931f;
+
+
+
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar a:hover,h1:hover,h2:hover,h3:hover,.btn:hover,h3,h2,a{
+    
+    text-decoration: none;
+    -webkit-animation-name: examples; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: examples;
+    animation-duration: 4s;
+    text-decoration: none;
+}
+
+.project{
+    padding: 12px 0 0;
+    margin-bottom: 20px;
+    background: #1f2833;
+    color: #c5c6c7;
+}
+
+.project-img img{
+    width: calc(100% + 30px);
+    margin-left: -6px;
+    margin-bottom: 10px;
+}
+.project-copy{
+    padding: 24px;
+    position: relative;
+    font-size: 14px;
+
+}
+.contact{
+    padding: 24px 0;
+    background: #1F2833;
+    color: rgb(64, 113, 161);
+}
+.contact li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+.contact a{
+    padding: 2px 5px;
+    text-align: center;
+    padding-left: 30px;
+}
+.contact h3{
+    text-align: center;
+    
+}
+footer{
+    display: block;
+}
+.foot a{
+    margin-left: 170px;
+}
+.project a{
+    border-color: aqua;
+    background-color: rgb(74, 47, 104);
+    color: beige;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1,h2,h3,p,a,.inside-border {
+    position: inline;
+    color: #f8931f;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1,h2,h3,p,a,.inside-border {
+    position: inline;
+    color: #f8931f;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h1,h2,h3,p,a,.inside-border {
+    position: inline;
+    color: #f8931f;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1,h2,h3,p,a,.inside-border {
+    position: inline;
+    color: #f8931f;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h1,h2,h3,p,a,.inside-border {
+    position: inline;
+    color: #f8931f;
+}
+}

@@ -1,0 +1,145 @@
+/* display: block;
+padding: 10px 16px;
+background-color: rgb(75, 64, 52);
+text-decoration: none;
+list-style: none;
+text-align: center;
+color: wheat;
+display: inline; */
+html, body{
+    background: #c5c6c7;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5; 
+    -webkit-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility;
+}
+h1, h2, h3{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+h3{
+    letter-spacing: 1px;
+}
+li a{
+    text-decoration: none;
+    /* text-align: center; */
+
+}
+.hero{
+    text-transform: uppercase;
+}
+.sub-heading{
+    position: relative;
+}
+.hero-graphic{
+    max-height: 506px;
+    overflow: hidden;
+}
+.hero-inner
+{
+    padding-bottom: 24px;
+    text-align: center;
+}
+.hero-inner img{
+    width: 100px;
+    display: block;
+    margin: -50px auto 5px;
+}
+.hero-inner ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.hero-inner li{
+    display: inline;
+    margin: 0 2px;
+}
+.hero-inner li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #0B0C10;
+    color: #C5c6c7;
+    text-align: center;
+}
+
+.nav-bar {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background: #0B0C10;
+    padding: 10px 0;
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-bar li{
+    display: inline;
+    margin: 0 5px;
+}
+.nav-bar a {
+    padding: 2px 5px;
+    text-transform: uppercase;
+    color: #f8931f;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    /* -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;} */
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.project{
+    padding: 12px 0 0;
+    margin-bottom: 20px;
+}
+.project{
+    background: #1f2833;
+    color: #c5c6c7;
+}
+.project-img img{
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+.project-copy{
+    padding: 24px;
+    position: relative;
+    font-size: 14px;
+
+}
+.social{
+    padding: 24px 0;
+    background: #1F2833;
+    color: #C5C6C7;}
+.social li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+.social a{
+    padding: 2px 5px;
+    text-align: center;
+}
+.footer{
+    display: block;
+}
+.about{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+img

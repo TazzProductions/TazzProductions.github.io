@@ -1,0 +1,320 @@
+/*
+font-family: 'Anton', sans-serif; FAT FONT
+font-family: 'Roboto', sans-serif; BODY FONT
+*/
+html, body { 
+	background: #C5C6C7;	
+	font-size: 18px; 
+	font-family: 'Roboto', sans-serif; 
+	line-height: 1.5; 
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+}
+@media (min-width: 420px) and (max-width: 1600px){
+  html, body { 
+    font-size: calc( 18px + (20 - 18) * ( (100vw - 420px) / (1600 - 420) ));
+  }
+}
+@media (min-width: 1600px){
+   html, body { 
+     font-size: 20px;
+   }
+}
+
+h1, h2, h3 {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	margin: 0;	
+}
+
+h3 {
+	letter-spacing: 1px;
+}
+
+address {
+	display: inline;
+}
+
+.vert:before ,.vert:after {
+	height: 24px;
+}
+
+@media (min-width: 1200px) {
+	.vert:before ,.vert:after {
+		height: 36px;
+	}
+}
+
+.sub-heading {
+	text-transform: uppercase;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero-graphic {
+	max-height: 200px;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.hero-graphic {
+		max-height: 400px;
+	}	
+}
+
+@media (min-width: 992px) {
+	.hero-graphic {
+		max-height: 500px;
+	}	
+}
+
+@media (min-width: 1200px) {
+	.hero-graphic {
+		max-height: 700px;
+	}	
+}
+
+@media (min-width: 1600px) {
+	.hero-graphic img{
+		width: 100%;
+	}	
+}
+
+.hero-inner {
+	padding-bottom: 24px;
+	text-align: center;
+}
+
+.hero-inner img {
+	width: 100px;
+	display: block;
+	margin: -50px auto 5px;
+}
+
+.hero-inner ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.hero-inner li {
+	display: inline;
+	margin: 0 2px;
+}
+
+.hero-inner li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #0B0C10;
+	color: #C5C6C7;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.hero-inner {
+		position: absolute;
+		top: 50%;left: 0;right: 0;
+		transform: translateY(-40%);
+		color: #FAFAFA;
+	}
+
+	.hero-border {
+		border: 1px solid #FAFAFA;
+	}
+
+	.hero-inner h1{
+		font-size: 48px;
+	}
+
+	.hero-inner img {
+		width: 150px;
+	}
+
+	.hero-inner ul {
+		margin-top: 10px;
+	}
+
+	.hero-inner li a{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		background: #C5C6C7;
+		color: #0B0C10;
+	}	
+}
+
+@media (min-width: 992px) {
+	.hero-inner img {
+		width: auto;
+	}	
+}
+
+.nav-bar {
+	z-index: 1;
+	position: sticky;
+	top: 0;
+	background: #0B0C10;
+	padding: 10px 0;
+}
+
+.nav-bar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.nav-bar li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.nav-bar a {
+	padding: 2px 5px;
+	text-transform: uppercase;
+	color: #f8931f;
+}
+
+.about, .social {
+	padding: 24px 0;
+	background: #1F2833;
+	color:#C5C6C7;
+}
+
+@media (min-width: 1200px) {
+	.about, .social {
+		padding: 36px 0;
+	}
+}
+
+.projects {
+	padding: 12px 0 0;
+}
+
+.project{
+	background: #1F2833;
+	color:#C5C6C7;
+}
+
+@media (min-width: 768px) {
+	.projects {
+		padding: 24px 0 0;
+	}
+	.project{
+		margin-bottom: 24px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.projects {
+		padding: 36px 0 0;
+	}
+	.project{
+		margin-bottom: 36px;
+	}
+}
+
+.project-img img{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+}
+
+.project-copy {
+	padding: 24px;
+	position: relative;
+	font-size: 14px;
+}
+
+@media (min-width: 768px) {
+	.project-copy {
+		height: 216px;
+	}
+	.project-copy-inner {
+		position: absolute;
+		top: 50%; left: 12px; right: 12px;
+		transform: translateY(-50%);
+	}	
+}
+
+@media (min-width: 992px) {
+	.project-copy {
+		height: 280px;
+	}
+	.project-copy-inner {
+		position: absolute;
+		top: 50%; left: 24px; right: 24px;
+		transform: translateY(-50%);
+	}	
+}
+
+@media (min-width: 1200px) {
+	.project-copy {
+		height: 338px;
+	}
+}
+
+.contact {
+	padding: 24px 0;
+	background: url('../images/jackson-ms.jpg');
+	color: #C5C6C7;
+}
+
+.contact ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.contact li {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+@media (min-width: 768px) {
+	.contact li {
+		font-size: 14px;
+	}
+}
+@media (min-width: 1200px) {
+	.contact li {
+		font-size: 16px;
+	}
+}
+
+.contact i {
+	margin-right: 10px;
+}
+
+.contact a {
+	color: #C5C6C7;
+}
+
+.social ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #0B0C10;
+	color: #C5C6C7;
+	text-align: center;
+}
