@@ -15,6 +15,11 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- stylesheet -->
+    <!-- jquery -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <!-- jquery -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -22,6 +27,10 @@
     <div class="background">
         <div class="bakcground-img">
             <img class="bg-img-rs" src="images/hero.jpg" alt="">
+            <img src="images/codeee.gif" alt="">
+            <img src="images/coding.jpg" alt="">
+            <img src="images/code.gif" alt="">
+            <img src="images/codee.gif" alt="">
         </div> 
     </div>
     <!-- End of top image -->
@@ -55,9 +64,9 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a class='abo' href="#about">About</a></li>
+                        <li><a class="pro" href="#projects">Projects</a></li>
+                        <li><a class='con' href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,7 +80,7 @@
                 <div class="col-sm-10">
                     <h2>About Me</h2>
                     <p class="sub-heading"><strong>About ~ D'Micheal</strong></p>
-                    <p>Hello, My name is D'Micheal McElroy, I am a Student at the Mississippi Coding Acadamey<br>My Goal at the Acadamey is to bring unified understanding of the coding world.There is much to Learn about the vast world of coding but in all honesty the "Pros" of what you learn will not only advance yourself but the surrounding the coder is in. In my domain as a Coder i plan to inspire others in there persuit of knowlege. Although my main Achivement is the progress of "Emma", an artifical intelligence built to present the learning process and the process it's self easier to its user(s). </p>
+                    <p>Hello, My name is D'Micheal McElroy, I am a Student at the Mississippi Coding Acadamey<br>My Goal at the Acadamey is to bring unified understanding of the coding world.There is much to Learn about the vast world of coding but in all honesty the "Pros" of what coders learn will not only advance ourselves, but the surrounding the coders are in. In my domain as a Coder i plan to inspire others in there persuit of knowlege. Although my main Achivement is the progress of "Emma", an artifical intelligence built to present the learning progress and the process it's self easier to its user(s) by allowing specific "coding" questions to be answered or by targetting specific coding problems, then bringing a complete understanding to its user for further development. </p>
                     <a href="https://docs.google.com/document/d/1L9BHNvNx0T1ii2Xk7oUZCBBmwzMXARO14pTNrEAs1Xo/edit" target="_blank" class="btn btn-default">Download Resume</a>
                 </div>
             </div>
@@ -84,25 +93,107 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h2>Projects</h2>
-                    <p class="sub-heading">Completed Projects</p>
+                    <p class="sub-heading">Javascript</p>
                 </div>
             </div>
-            <!-- project-1 -->
+
+             <!-- project-1 -->
             <div class="project row">
-                <div class="project-img col-sm-6">
-                    <img class='mag'src="images/terminal.png" alt="">
+                <div class="html project-img col-sm-6">
+                    <img class='image mag'src="images/atm.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Javascript</a></div>
+                    </div>
                 </div>
                 <div class="project-copy col-sm-6">
                     <div class="project-copy-inner">
-                        <h3>Pizza Shop (python)</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem ex temporibus minus dolorum eveniet tempore amet aliquam harum. Eius natus totam dolore ab facere molestias modi a nobis omnis.</p>
-                        <a href="" class="button btn btn-default" target="_blank">Download Project</a>
+                        <h3>ATM</h3>
+                        <p>This project was designed using  javascript and  both HTML 5 and CSS, The "ATM" is a fast cash withdraw Automatic Teller Machine with the ability to deposit withdraw and transfer currency.</p>
+                        <a href="file:///C:/Users/Tazz/Desktop/ATM/Atm(frontend).html" class="button btn btn-default" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
+
             <div class="project row">
-                <div class="project-img col-sm-6">
-                    <img class=''src="images/project1.png" alt="">
+                <div class="html project-img col-sm-6">
+                    <img class='image mag'src="images/budget.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Javascript</a></div>
+                    </div>
+                </div>
+                <div class="project-copy col-sm-6">
+                    <div class="project-copy-inner">
+                        <h3>Budget Caculator</h3>
+                        <p>This project was designed with javascript to caculate the budget with an anual Income.</p>
+                        <a href="file:///C:/Users/Tazz/Desktop/PTO/budget.html" class="button btn btn-default" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project row">
+                <div class="html image project-img col-sm-6">
+                    <img class='image mag'src="images/petfinder.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Javascript</a></div>
+                    </div>
+                </div>
+                <div class="project-copy col-sm-6">
+                    <div class="project-copy-inner">
+                        <h3>Pet Finder</h3>
+                        <p>This project was designed to ask a series of questions that would determine a perfect pet based on the users answers using javascript.</p>
+                        <a href="file:///C:/Users/Tazz/Desktop/PTO/petfinder.html" class="button btn btn-default" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project row">
+                <div class="html image project-img col-sm-6">
+                    <img class='image mag'src="images/superhero.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Javascript</a></div>
+                    </div>
+                </div>
+                <div class="project-copy col-sm-6">
+                    <div class="project-copy-inner">
+                        <h3>Random Super Hero</h3>
+                        <p>This project was designed using a randomized choice to output three seperate strings making a complete sentence of a diffrent super hero with diffrent abbilities.</p>
+                        <a href="file:///C:/Users/Tazz/Desktop/PTO/SuperHero.html" class="button btn btn-default" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project row">
+                <div class="html image project-img col-sm-6">
+                    <img class='image mag'src="images/ymg.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Javascript</a></div>
+                    </div>
+                </div>
+                <div class="html project-copy col-sm-6">
+                    <div class="image project-copy-inner">
+                        <h3>Joke Generator</h3>
+                        <p>This joke generator was designed to generate randomized strings that contain jokes that would be stitched together into one sentence.</p>
+                        <a href="file:///C:/Users/Tazz/Desktop/PTO/JavascriptLessons/yomammajokes/jokes.html" class="button btn btn-default" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Projects</h2>
+                    <p class="sub-heading">Html & CSS</p>
+                </div>
+            </div>
+
+
+            <!-- project-2 -->
+            <div class="project row">
+                <div class="html image project-img col-sm-6">
+                    <img class='image mag'src="images/project1.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View HTML & CSS</a></div>
+                    </div>
                 </div>
                 <div class="project-copy col-sm-6">
                     <div class="project-copy-inner">
@@ -112,9 +203,19 @@
                     </div>
                 </div>
             </div>
+            <!-- project-3 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Projects</h2>
+                    <p class="sub-heading">HTML 5</p>
+                </div>
+            </div>
             <div class="project row">
-                <div class="project-img col-sm-6">
-                    <img src="images/pizza.png" alt="">
+                <div class="html image project-img col-sm-6">
+                    <img src="images/pizza.png" class="image mag" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View HTML 5</a></div>
+                    </div>
                 </div>
                 <div class="project-copy col-sm-6">
                     <div class="project-copy-inner">
@@ -124,6 +225,7 @@
                     </div>
                 </div>
             </div>
+            <!-- project-4
             <div class="project row">
                 <div class="project-img col-sm-6">
                     <img src="images/pizza.png" alt="">
@@ -133,6 +235,28 @@
                         <h3>Pizza Shop (HTML & css)</h3>
                         <p>The Goal of this project was to design a webpage that was HTML & CSS.<br>The project was complete a website that allows the incoming user to build a pizza that they want with the given toppings and choices. the project included guidelines such as three pictures at the top page and a link that would go from the bottom of the page to the top<br><strong>(Basic HTML)</strong></p>
                         <a href="file:///C:/Users/Tazz/Documents/website1/website1.html" class="btn btn-default" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Projects</h2>
+                    <p class="sub-heading">Python 3.6</p>
+                </div>
+            </div>
+            <!-- project-1 -->
+            <div class="project row">
+                <div class="html project-img col-sm-6">
+                    <img class='image mag'src="images/terminal.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="" class="button btn btn-default" target="_blank">View Code</a></div>
+                    </div>
+                </div>
+                <div class="project-copy col-sm-6">
+                    <div class="project-copy-inner">
+                        <h3>Pizza Shop (python)</h3>
+                        <p>This pizza shop was created using pyhton 3.6 allowing the user to make a pizza withe the choices on the menu or a randomized choice, then order the pizza/</p>
+                        <a href="" class="button btn btn-default" target="_blank">Download Project</a>
                     </div>
                 </div>
             </div>
@@ -158,6 +282,19 @@
         </div>
     </footer>
     <!-- End of Contact section -->
+    <!-- jquery -->
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/java.js"></script>
+    <!-- jquery -->
+    
     
 </body>
 </html>
