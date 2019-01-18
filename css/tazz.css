@@ -1,5 +1,9 @@
 body{
-    background-color: rgba(46, 42, 42, 0.548);
+    /* background-color: rgba(46, 42, 42, 0.548); */
+    background-image: url(images/bgc.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 .inside a:hover,.btn:hover, h3:hover{
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -8,35 +12,35 @@ body{
     animation-duration: 4s;
     text-decoration: none;
 }
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color: rgb(0, 195, 255);}
-    25%  {background-color: rgba(0, 102, 255, 0.479);}
-    50%  {background-color: blue;}
-    100% {background-color: rgb(70, 41, 138);}
-}
+    /* Safari 4.0 - 8.0
+    @-webkit-keyframes example {
+        0%   {background-color: rgb(0, 195, 255);}
+        25%  {background-color: rgba(0, 102, 255, 0.479);}
+        50%  {background-color: blue;}
+        100% {background-color: rgb(70, 41, 138);}
+    }
 
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color: rgb(0, 195, 255);}
-    25%  {background-color: rgba(0, 102, 255, 0.479);}
-    50%  {background-color: blue;}
-    100% {background-color: rgb(70, 41, 138);}
-}
-@-webkit-keyframes examples {
-    0%   {color: rgb(0, 195, 255);}
-    25%  {color: rgba(0, 102, 255, 0.479);}
-    50%  {color: blue;}
-    100% {color: rgb(70, 41, 138);}
-}
+    /* Standard syntax */
+        /* @keyframes example {
+            0%   {background-color: rgb(0, 195, 255);}
+            25%  {background-color: rgba(0, 102, 255, 0.479);}
+            50%  {background-color: blue;}
+            100% {background-color: rgb(70, 41, 138);}
+        }
+        @-webkit-keyframes examples {
+            0%   {color: rgb(0, 195, 255);}
+            25%  {color: rgba(0, 102, 255, 0.479);}
+            50%  {color: blue;}
+            100% {color: rgb(70, 41, 138);}
+        }
 
-/* Standard syntax */
-@keyframes examples {
-    0%   {color: rgb(0, 195, 255);}
-    25%  {color: rgba(0, 102, 255, 0.479);}
-    50%  {color: blue;}
-    100% {color: rgb(70, 41, 138);}
-}
+        /* Standard syntax */
+        /* @keyframes examples {
+            0%   {color: rgb(0, 195, 255);} 
+        25%  {color: rgba(0, 102, 255, 0.479);}
+        50%  {color: blue;}
+        100% {color: rgb(70, 41, 138);}
+    }  */
 .background{
     height: 700px;
     overflow: hidden;
@@ -219,11 +223,11 @@ footer{
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen (min-width: 600px) {
+/* @media only screen (min-width: 600px) {
     .inside-border{
     width: 300px;
 }
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -258,7 +262,11 @@ footer{
 @media only screen and (min-width: 1200px) {
     h1,h2,h3,p,a,.inside-border {
     position: inline;
-    color: #f8931f;
+    /* color: #f8931f; */
+
+    color: rgb(74, 47, 104);
+    color: #39ff14;
+    text-shadow: 0 0 85px blue;
     /* display: inline; */
         word-wrap: break-word;
         vertical-align: middle;
@@ -268,11 +276,11 @@ footer{
         word-break: normal;
 }
 }
-@media only screen and (max-width and min-width: 400px) {
+@media only screen and (max-width:400px) and (min-width: 400px) {
     h1,h2,h3,p,a,.inside-border {
     position: inline;
     color: #f8931f;
-    /* display: inline; */
+    display: inline;
         word-wrap: break-word;
         vertical-align: middle;
         
@@ -283,11 +291,16 @@ footer{
     }
 }
 body{
-    background: rgb(142,16,156);
+    /* background: rgb(142,16,156);
 background: -moz-linear-gradient(top, rgb(13, 98, 124) 32%, rgba(133,13,73,1) 75%);
 background: -webkit-linear-gradient(top, rgb(16, 105, 156) 32%,rgba(133,13,73,1) 75%);
 background: linear-gradient(to bottom, rgba(142,16,156,1) 32%,rgba(133,13,73,1) 75%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e109c', endColorstr='#850d49',GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e109c', endColorstr='#850d49',GradientType=0 ); */
+
+background-image: url(images/bgc.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 .image {
@@ -319,6 +332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e109c', end
     font-size: 16px;
     padding: 16px 32px;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 .html {
     position: relative;
@@ -333,3 +347,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e109c', end
     opacity: 1;
   }
   
+
+.icon-bottom{
+    margin-left: 210px;
+}

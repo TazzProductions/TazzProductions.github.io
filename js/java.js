@@ -15,18 +15,35 @@ $(document).ready(function(){
 
 
     $(".abo").click(function(){
-        $(".about").slideToggle();
+        $(".about").fadeTo();
     });
 
 
-    $(".con").click(function(){
-        $(".contact").slideToggle();
-        });
-    });
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
+        
+        $('html,body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
 
-    $('html,body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
+    $( ".con" ).click(function() {
+        $( ".contact" ).fadeTo();
+      });
+
+    $(".javascript").click(function() {
+        $(".js").slideToggle();
+    })
+    $(".html_css").click(function() {
+        $(".htmlcss").slideToggle();
+    })
+
 });
+
+
+
+// Notes
+// $(".con").click(function(){
+//     $(".contact").slideToggle();
+//     });
+// });
