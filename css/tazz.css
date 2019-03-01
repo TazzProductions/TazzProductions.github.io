@@ -39,11 +39,18 @@ body{
             0%   {color: rgb(0, 195, 255);} 
         25%  {color: rgba(0, 102, 255, 0.479);}
         50%  {color: blue;}
-        100% {color: rgb(70, 41, 138);}
+        100% {color: rgb(70, 41, 138);};
     }  */
 .background{
     height: 700px;
     overflow: hidden;
+}
+.ml-10{
+    margin-left: -10px;
+}
+.st{
+    float: right;
+    color: rgb(209, 219, 63)
 }
 .background-img{
     max-height: 100px;

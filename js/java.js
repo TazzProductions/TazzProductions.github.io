@@ -33,10 +33,16 @@ $(document).ready(function(){
 
     $(".javascript").click(function() {
         $(".js").slideToggle();
-    })
+    });
     $(".html_css").click(function() {
         $(".htmlcss").slideToggle();
-    })
+    });
+    $(".htmlfive").click(function() {
+        $(".html_five").slideToggle();
+    });
+    $(".python").click(function() {
+        $(".python_").slideToggle();
+    });
 
 });
 
