@@ -1,10 +1,10 @@
-body{
+/* body{ */
     /* background-color: rgba(46, 42, 42, 0.548); */
-    background-image: url(images/bgc.jpg);
+    /* background-image: url(images/bgc.jpg);
     background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
+    /* background-repeat:   no-repeat;
+    background-position: center center;  */
+/* } */
 .inside a:hover,.btn:hover, h3:hover{
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
@@ -269,11 +269,10 @@ footer{
 @media only screen and (min-width: 1200px) {
     h1,h2,h3,p,a,.inside-border {
     position: inline;
-    /* color: #f8931f; */
+    color: #f8931f;
 
-    color: rgb(74, 47, 104);
-    color: #39ff14;
-    text-shadow: 0 0 85px blue;
+    /* color: #39ff14; */
+    /* text-shadow: 0 0 85px blue; */
     /* display: inline; */
         word-wrap: break-word;
         vertical-align: middle;
@@ -281,6 +280,7 @@ footer{
 
         
         word-break: normal;
+        
 }
 }
 @media only screen and (max-width:400px) and (min-width: 400px) {
@@ -294,20 +294,26 @@ footer{
         border-width: 100%;
 
         word-break: normal;
-
+       
     }
 }
 body{
     /* background: rgb(142,16,156);
 background: -moz-linear-gradient(top, rgb(13, 98, 124) 32%, rgba(133,13,73,1) 75%);
 background: -webkit-linear-gradient(top, rgb(16, 105, 156) 32%,rgba(133,13,73,1) 75%);
-background: linear-gradient(to bottom, rgba(142,16,156,1) 32%,rgba(133,13,73,1) 75%);
+background: linear-gradient(to bottom, rgba(142,16,156,1) 32%,rgba(133,13,73,1) 75%) rgba(133,13,73,1 75%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e109c', endColorstr='#850d49',GradientType=0 ); */
-
+/* 
 background-image: url(images/bgc.jpg);
     background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
+    /* background-repeat:   no-repeat;
+    background-position: center center; */ 
+
+    background: #cb60b3;
+background: -moz-linear-gradient(top, #cb60b3 5%, #15b3c1 17%, #d6b644 24%, #15b3c1 30%, #e56ed3 36%, #15b3c1 41%, #cb60b3 46%, #d6b644 51%, #1782d3 57%, #cb60b3 63%, #d6b644 64%, #15b3c1 92%);
+background: -webkit-linear-gradient(top, #cb60b3 5%,#15b3c1 17%,#d6b644 24%,#15b3c1 30%,#e56ed3 36%,#15b3c1 41%,#cb60b3 46%,#d6b644 51%,#1782d3 57%,#cb60b3 63%,#d6b644 64%,#15b3c1 92%);
+background: linear-gradient(to bottom, #cb60b3 5%,#15b3c1 17%,#d6b644 24%,#15b3c1 30%,#e56ed3 36%,#15b3c1 41%,#cb60b3 46%,#d6b644 51%,#1782d3 57%,#cb60b3 63%,#d6b644 64%,#15b3c1 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#15b3c1',GradientType=0 );
 }
 
 .image {
@@ -357,4 +363,44 @@ background-image: url(images/bgc.jpg);
 
 .icon-bottom{
     margin-left: 210px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+/*   
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+  
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    /* background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+} */ 
+  
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+.about{
+    margin-top: -10px;
 }
